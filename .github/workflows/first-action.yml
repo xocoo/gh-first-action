@@ -6,5 +6,9 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello World!"
+      - name: Dundiin
+        run: |
+          echo "Dund 1"
+          echo "Dund 2"
       - name: Print goodbye
         run: echo "Done - bye!"
